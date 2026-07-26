@@ -1,43 +1,4 @@
--- Plalette Scripts · MvSD DUELS · v2.1
-local Players = game:GetService("Players")
-local RunService = game:GetService("RunService")
-local UserInputService = game:GetService("UserInputService")
-local Workspace = game:GetService("Workspace")
-local CoreGui = game:GetService("CoreGui")
-local Lighting = game:GetService("Lighting")
-local LocalPlayer = Players.LocalPlayer
-local Camera = Workspace.CurrentCamera
-local Mouse = LocalPlayer:GetMouse()
-
-local PASS = "plalettescripts3754356"
-local OK = false
-
-local Aimbot = false
-local FOV = 120
-local Silent = false
-local Hitbox = false
-local HitboxS = 3
-local Reload = false
-local ESP = false
-local Tracers = false
-local Speed = false
-local SpeedV = 32
-local Fly = false
-local FlyV = 30
-local Jump = false
-local JumpV = 60
-
-local ESPD = {}
-local FCI = nil
-
-local function GT()
-    local b = 99999
-    local t = nil
-    local cx = Camera.ViewportSize.X / 2
-    local cy = Camera.ViewportSize.Y / 2
-    for _, p in ipairs(Players:GetPlayers()) do
-        if p ~= LocalPlayer and p.Character then
-            local h = p.Character:FindFirstChild-- Plalette Scripts · MvSD DUELS · v3.0 FINAL
+-- Plalette Scripts · MvSD DUELS · v3.0 FINAL
 local P=game:GetService("Players")
 local R=game:GetService("RunService")
 local U=game:GetService("UserInputService")
